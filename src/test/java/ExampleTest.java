@@ -8,7 +8,7 @@ public class ExampleTest {
     public void add() throws Exception {
         Example example = new Example();
         for(int i=0; i<10; i++)
-            assertEquals(2+i, example.add(1,i));
+            assertEquals(1+i, example.add(1,i));
     }
 
 }
